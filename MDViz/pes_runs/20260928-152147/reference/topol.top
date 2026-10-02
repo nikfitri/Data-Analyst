@@ -1,0 +1,16 @@
+; 52E5 protein-ligand topology using AMBER99SB-ILDN and GAFF2/AM1-BCC.
+#include "amber99sb-ildn.ff/forcefield.itp"
+#include "/mnt/c/Users/Nik Fitri/OneDrive/Cambridge PhD Thesis/MD simulation/GROMACS/runs/52E5/LIG_52E5_DOCKED_GMX.itp"
+#include "/mnt/c/Users/Nik Fitri/OneDrive/Cambridge PhD Thesis/MD simulation/GROMACS/runs/52E5/protein_52E5_Protein_chain_A.itp"
+#include "/mnt/c/Users/Nik Fitri/OneDrive/Cambridge PhD Thesis/MD simulation/GROMACS/runs/52E5/protein_52E5_Protein_chain_D.itp"
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+52E5 docked GluA2 complex
+
+[ molecules ]
+Protein_chain_A 1
+Protein_chain_D 1
+LIG_52E5_DOCKED 1
+SOL 24267

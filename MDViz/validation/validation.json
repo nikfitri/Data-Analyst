@@ -1,0 +1,26 @@
+{
+  "atoms": 80681,
+  "trajectory_frames": 3601,
+  "sampled_frames": [
+    0,
+    327,
+    654,
+    981,
+    1309,
+    1636,
+    1963,
+    2290,
+    2618,
+    2945,
+    3272,
+    3600
+  ],
+  "occupancy_smoothing_invariant": true,
+  "export_frame_seconds": [
+    0.9325264999642968,
+    0.5725218000588939
+  ],
+  "movie_bytes": 139017,
+  "decoded_movie_frames": 5,
+  "labels_visible": true
+}

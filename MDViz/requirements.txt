@@ -1,0 +1,12 @@
+MDAnalysis==2.10.0
+PySide6==6.11.2
+vtk==9.7.0
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==12.3.0
+imageio-ffmpeg==0.6.0
+gemmi==0.7.5
+pyedr==0.8.0
+plotly==7.1.0
+pytest==9.1.1
